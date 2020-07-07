@@ -17,8 +17,10 @@ public class MainActivity extends AppCompatActivity {
         /* Имя пользователя */
         final EditText editUserName = findViewById(R.id.editUserName);
 
-        /*  */
+        /* Элекстронная почта */
         final EditText editEmail = findViewById(R.id.editEmail);
+
+        /* Примечание */
         final TextView textNote = findViewById(R.id.textNote);
 
         /* "OK": сообщение об успешной регистрации или о незаполненных полях */
